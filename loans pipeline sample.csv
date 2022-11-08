@@ -1,0 +1,31 @@
+﻿task,recipe,recipe group,recipe group cluster,pipeline
+join,import,small loans data,old loans,bank loans master
+persist,import,small loans data,old loans,bank loans master
+join,clean data,small loans data,old loans,bank loans master
+join,clean data,small loans data,old loans,bank loans master
+persist,clean data,small loans data,old loans,bank loans master
+field compute,clean data,small loans data,old loans,bank loans master
+filter,merge some things,small loans data,old loans,bank loans master
+select columns,merge some things,small loans data,old loans,bank loans master
+filter,merge some things,small loans data,old loans,bank loans master
+join,merge some things,small loans data,old loans,bank loans master
+join,import,big loans ,old loans,bank loans master
+persist,import,big loans ,old loans,bank loans master
+join,clean data,big loans ,old loans,bank loans master
+join,clean data,big loans ,old loans,bank loans master
+persist,clean data,big loans ,old loans,bank loans master
+field compute,clean data,big loans ,old loans,bank loans master
+filter,merge some things,big loans ,old loans,bank loans master
+select columns,merge some things,big loans ,old loans,bank loans master
+filter,merge some things,big loans ,old loans,bank loans master
+join,merge some things,big loans ,old loans,bank loans master
+join,import,new loans as of jan 1,,bank loans master
+persist,import,new loans as of jan 1,,bank loans master
+join,clean data,new loans as of jan 1,,bank loans master
+join,clean data,new loans as of jan 1,,bank loans master
+persist,clean data,new loans as of jan 1,,bank loans master
+field compute,clean data,new loans as of jan 1,,bank loans master
+filter,merge some things,new loans as of jan 1,,bank loans master
+select columns,merge some things,new loans as of jan 1,,bank loans master
+filter,merge some things,new loans as of jan 1,,bank loans master
+join,merge some things,new loans as of jan 1,,bank loans master
