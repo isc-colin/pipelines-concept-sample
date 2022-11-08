@@ -1,31 +1,31 @@
-﻿task,recipe,recipe group,recipe group cluster,pipeline
-join,import,small loans data,old loans,bank loans master
-persist,import,small loans data,old loans,bank loans master
-join,clean data,small loans data,old loans,bank loans master
-join,clean data,small loans data,old loans,bank loans master
-persist,clean data,small loans data,old loans,bank loans master
-field compute,clean data,small loans data,old loans,bank loans master
-filter,merge some things,small loans data,old loans,bank loans master
-select columns,merge some things,small loans data,old loans,bank loans master
-filter,merge some things,small loans data,old loans,bank loans master
-join,merge some things,small loans data,old loans,bank loans master
-join,import,big loans ,old loans,bank loans master
-persist,import,big loans ,old loans,bank loans master
-join,clean data,big loans ,old loans,bank loans master
-join,clean data,big loans ,old loans,bank loans master
-persist,clean data,big loans ,old loans,bank loans master
-field compute,clean data,big loans ,old loans,bank loans master
-filter,merge some things,big loans ,old loans,bank loans master
-select columns,merge some things,big loans ,old loans,bank loans master
-filter,merge some things,big loans ,old loans,bank loans master
-join,merge some things,big loans ,old loans,bank loans master
-join,import,new loans as of jan 1,,bank loans master
-persist,import,new loans as of jan 1,,bank loans master
-join,clean data,new loans as of jan 1,,bank loans master
-join,clean data,new loans as of jan 1,,bank loans master
-persist,clean data,new loans as of jan 1,,bank loans master
-field compute,clean data,new loans as of jan 1,,bank loans master
-filter,merge some things,new loans as of jan 1,,bank loans master
-select columns,merge some things,new loans as of jan 1,,bank loans master
-filter,merge some things,new loans as of jan 1,,bank loans master
-join,merge some things,new loans as of jan 1,,bank loans master
+﻿task,recipe,recipe group,recipe group cluster,pipeline,last run,rows added,columns available,execution time,users with access,created by,data owner,licensing
+join,import,small loans data,old loans,bank loans master,7/31/22 15:49,49221,11,1945 ms,"@person1, @person2",@person0,@person4,open license
+persist,import,small loans data,old loans,bank loans master,10/22/22 15:49,35355,1,8265 ms,"@person1, @person2",@person0,@person4,restricted
+join,clean data,small loans data,old loans,bank loans master,8/30/22 15:49,71322,7,4515 ms,"@person1, @person2",@person0,@person4,open license
+join,clean data,small loans data,old loans,bank loans master,7/28/22 15:49,52377,13,3793 ms,"@person1, @person2",@person0,@person4,restricted
+persist,clean data,small loans data,old loans,bank loans master,6/15/22 15:49,96418,8,3221 ms,"@person1, @person2",@person0,@person4,open license
+field compute,clean data,small loans data,old loans,bank loans master,6/12/22 15:49,43963,29,1634 ms,"@person1, @person2",@person0,@person4,restricted
+filter,merge some things,small loans data,old loans,bank loans master,10/19/22 15:49,67772,8,2794 ms,"@person1, @person2",@person0,@person4,open license
+select columns,merge some things,small loans data,old loans,bank loans master,7/13/22 15:49,94593,11,6372 ms,"@person1, @person2",@person0,@person4,restricted
+filter,merge some things,small loans data,old loans,bank loans master,7/7/22 15:49,17956,19,3127 ms,"@person1, @person2",@person0,@person4,open license
+join,merge some things,small loans data,old loans,bank loans master,9/21/22 15:49,24752,19,4232 ms,"@person1, @person2",@person0,@person4,restricted
+join,import,big loans ,old loans,bank loans master,6/11/22 15:49,53196,14,9092 ms,"@person1, @person2",@person0,@person4,open license
+persist,import,big loans ,old loans,bank loans master,7/7/22 15:49,7273,18,3216 ms,"@person1, @person2",@person0,@person4,restricted
+join,clean data,big loans ,old loans,bank loans master,6/10/22 15:49,59092,28,8124 ms,"@person1, @person2",@person0,@person4,open license
+join,clean data,big loans ,old loans,bank loans master,5/16/22 15:49,34738,19,1524 ms,"@person1, @person2",@person0,@person4,restricted
+persist,clean data,big loans ,old loans,bank loans master,8/14/22 15:49,1249,16,4345 ms,"@person1, @person2",@person0,@person4,open license
+field compute,clean data,big loans ,old loans,bank loans master,7/3/22 15:49,48840,14,6312 ms,"@person1, @person2",@person0,@person4,restricted
+filter,merge some things,big loans ,old loans,bank loans master,5/22/22 15:49,96550,28,2173 ms,"@person1, @person2",@person0,@person4,open license
+select columns,merge some things,big loans ,old loans,bank loans master,8/29/22 15:49,97874,23,9092 ms,"@person1, @person2",@person0,@person4,restricted
+filter,merge some things,big loans ,old loans,bank loans master,7/25/22 15:49,71231,4,4060 ms,"@person1, @person2",@person0,@person4,open license
+join,merge some things,big loans ,old loans,bank loans master,9/26/22 15:49,11769,2,552 ms,"@person1, @person2",@person0,@person4,restricted
+join,import,new loans as of jan 1,,bank loans master,6/17/22 15:49,46208,16,5474 ms,"@person1, @person2",@person0,@person4,open license
+persist,import,new loans as of jan 1,,bank loans master,10/6/22 15:49,13734,3,7387 ms,"@person1, @person2",@person0,@person4,restricted
+join,clean data,new loans as of jan 1,,bank loans master,8/16/22 15:49,40962,10,179 ms,"@person1, @person2",@person0,@person4,open license
+join,clean data,new loans as of jan 1,,bank loans master,10/4/22 15:49,29717,5,1209 ms,"@person1, @person2",@person0,@person4,restricted
+persist,clean data,new loans as of jan 1,,bank loans master,9/14/22 15:49,65581,17,5194 ms,"@person1, @person2",@person0,@person4,open license
+field compute,clean data,new loans as of jan 1,,bank loans master,10/3/22 15:49,58165,3,641 ms,"@person1, @person2",@person0,@person4,restricted
+filter,merge some things,new loans as of jan 1,,bank loans master,6/12/22 15:49,39911,12,4469 ms,"@person1, @person2",@person0,@person4,open license
+select columns,merge some things,new loans as of jan 1,,bank loans master,8/18/22 15:49,77128,27,3186 ms,"@person1, @person2",@person0,@person4,restricted
+filter,merge some things,new loans as of jan 1,,bank loans master,6/27/22 15:49,47793,29,7247 ms,"@person1, @person2",@person0,@person4,open license
+join,merge some things,new loans as of jan 1,,bank loans master,10/4/22 15:49,90793,13,8942 ms,"@person1, @person2",@person0,@person4,restricted
